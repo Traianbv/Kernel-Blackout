@@ -1,7 +1,9 @@
 # Kernel-Blackout
 
 
-Script : #include <ntddk.h>
+Script : 
+
+#include <ntddk.h>
 
 // Offsets for Windows 10 x64 (Version 19041 - THM Lab)
 #define LINKS_OFFSET  0x2e8  // ActiveProcessLinks
@@ -66,4 +68,6 @@ NTSTATUS DriverEntry(PDRIVER_OBJECT DriverObject, PUNICODE_STRING RegistryPath) 
 }
 
 
-Command Line : "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
+Command Line : 
+
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
